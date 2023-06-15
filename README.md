@@ -1,7 +1,7 @@
 # Background
 For this project, we are tasked with fully automating the provisioning, configurating, and setup of our Minecraft server with using the tools that we learned from class (Ansible, Terraform, Pulumi, Docker, Scripting, GitHub Actions, etc.)
 
-![diagram.png]
+![Best diagram ever](diagram.png)
 # Diagram of pipeline procedure
 Diagram of the major steps in the pipeline. 
 
