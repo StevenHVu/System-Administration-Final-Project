@@ -2,10 +2,8 @@
 For this project, we are tasked with fully automating the provisioning, configurating, and setup of our Minecraft server with using the tools that we learned from class (Ansible, Terraform, Pulumi, Docker, Scripting, GitHub Actions, etc.).
 
 This project was implemented using Terraform, AWS CLI, and an AWS account.
-
-![Best diagram ever](diagram.png)
 # Diagram of pipeline procedure
-Diagram of the major steps in the pipeline. 
+![Best diagram ever](diagram.png)
 
 # Prerequisites
 - AWS account
