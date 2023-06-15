@@ -27,12 +27,17 @@ where you replace the <value> and <variable> for the corresponding AWS CLI infor
 In order to connect to the server, you will be needing a key pair. To create a key pair, go to the AWS dashboard, and search for "key pairs" in the search bar. Check to make sure you're in the create region (us-east-1) and click "Create key pair", name the key pair "minecraft", and have its format be `.pem`. 
 
 # Important commands
-List of commands to run, with explanations.
+The important commands are all located from within the `script.sh` file
+```terraform init``` - this will initialize the directory that holds the new/existing configuration
+```terraform fmt``` - this will format the configuration. If your configuration file was formatted correctly, Terraform will not return any file names.
+```terraform validate``` - this will validate the configuration.
+```terraform apply -auto-approve``` - this will apply the configuration plan. It will also automatically accept any plan when Terraform normally pauses and waits for user approval.
+```terraform output``` will output any output described in the configuration script to the terminal. In this case, it will output the public IP address of the minecraft server instance.
 
-# Testing connection to the Minecraft server
-How to connect to the Minecraft server once it's running?
-
+# Usage
+use git clone
 # Resources used
+- ChatGPT - May 24th Version
 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/finding-an-ami.html
 - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 - https://github.com/HarryNash/terraform-minecraft
