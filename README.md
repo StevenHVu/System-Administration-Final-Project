@@ -1,6 +1,9 @@
 # Background
+For this project, we are tasked with fully automating the provisioning, configurating, and setup of our Minecraft server with using the tools that we learned from class (Ansible, Terraform, Pulumi, Docker, Scripting, GitHub Actions, etc.)
 
-What will we do? How will we do it? 
+![https://prnt.sc/-EGpLDq87FMt
+# Diagram of pipeline procedure
+Diagram of the major steps in the pipeline. 
 
 # Prerequisites
 - AWS account
@@ -23,13 +26,6 @@ where you replace the <value> and <variable> for the corresponding AWS CLI infor
 ## AWS Key Pair
 In order to connect to the server, you will be needing a key pair. To create a key pair, go to the AWS dashboard, and search for "key pairs" in the search bar. Check to make sure you're in the create region (us-east-1) and click "Create key pair", name the key pair "minecraft", and have its format be `.pem`. 
 
-
-# Setting environment variables
-Should the user set environment variables or configure anything?
-
-# Diagram of pipeline procedure
-Diagram of the major steps in the pipeline. 
-
 # Important commands
 List of commands to run, with explanations.
 
@@ -38,3 +34,5 @@ How to connect to the Minecraft server once it's running?
 
 # Resources used
 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/finding-an-ami.html
+- https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+- https://github.com/HarryNash/terraform-minecraft
