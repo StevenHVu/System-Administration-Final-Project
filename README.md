@@ -35,7 +35,17 @@ The important commands are all located from within the `script.sh` file
 ```terraform output``` will output any output described in the configuration script to the terminal. In this case, it will output the public IP address of the minecraft server instance.
 
 # Usage
-use git clone
+From your local machine, open up your terminal and clone this repository using the command:
+```use git clone https://github.com/StevenHVu/System-Administration-Final-Project.git```
+  
+From there, change directories (using `cd` command) to the GitHub repo (you should see a file named 'minecraft.tf' when you check the directory's contents). Then, simply run the following command:
+```./script.sh```
+After the script is done, enter the command: ```terraform output``` to see the IP address of the Minecraft server instance. Next, open up your Minecraft game, go to Multiplayer, click on "Add server", and in the server address, paste the public IP address into there, and click "Save". After about five minutes, the server should be up and you should be able to join the server!
+  
+After you are done with Minecraft, you can destroy the instance with the following command:
+```terraform destroy```
+enter "yes" when prompted, and the server will be gone, obliterated, reduced to atoms...
+  
 # Resources used
 - ChatGPT - May 24th Version
 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/finding-an-ami.html
